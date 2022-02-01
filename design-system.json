@@ -1,0 +1,13 @@
+{
+  "color":{
+    "principal":{
+      "primary": "#C8FEC9",
+      "secondary":"#BA7A7B"
+    },
+    "neutrals":{
+      "light":"#FCFBFC",
+      "dark":"#030303",
+      "grey":"#393e46"
+    }
+  } 
+}

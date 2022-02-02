@@ -13,20 +13,22 @@ const Container = styled.header`
   color: ${DesignSystem.color.neutrals["light"]};
   padding: 5px 0;
 
-   /* Tablet */
-   @media screen and (min-width: 768px) and (max-width:1023px) {
-     
-    
-  }
 
+  /* Tablet */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  }
 `;
 
 const Logo = styled.img`
   max-width: 6vw;
 
+  /* Desktop S */
+  @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    max-width: 11vw;
+  }
 
   /* Tablet */
-  @media screen and (min-width: 768px) and (max-width:1023px) {
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
     max-width: 16vw;
   }
 
@@ -51,8 +53,15 @@ const Nav = styled.ul`
     color: ${DesignSystem.color.neutrals["grey"]};
   }
 
-   /* Tablet */
-   @media screen and (min-width: 768px) and (max-width:1023px) {
+  /* Desktop S */
+  @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    font-size: 2rem;
+    width: 60%;
+    padding-right: 0;
+  }
+
+  /* Tablet */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
     width: 80%;
     padding-right: 0%;
     font-size: 2rem;

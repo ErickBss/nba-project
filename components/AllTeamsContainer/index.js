@@ -13,7 +13,7 @@ import {
   BoxFilterOptions,
   Description,
   City,
-  Icon
+  Icon,
 } from "./style";
 import { SubTitle, Option, Text } from "../DefaultElements";
 
@@ -27,7 +27,7 @@ export default function AllTeamsContainer(props) {
           <SubTitle>Filter By:</SubTitle>
           <BoxFilterOptions>
             <Option
-            id="allLeague"
+              id="allLeague"
               onClick={() => {
                 props.HandleReset(props.Default);
               }}
@@ -71,19 +71,18 @@ export default function AllTeamsContainer(props) {
                       {team.city} / {team.conference}
                     </p>
                   </aside>
-                  <a href="#players"
-                    onClick={()=>{
+                  <a
+                    href="#players"
+                    onClick={() => {
                       props.HandlePlayerByTeam(team.initials);
                     }}
                   >
                     <Icon>
-
-                    <IoPeopleSharp
-                      style={{
-                        color: `${DesignSystem.color.principal["primary"]}`,
-                        
-                      }}
-                    />
+                      <IoPeopleSharp
+                        style={{
+                          color: `${DesignSystem.color.principal["primary"]}`,
+                        }}
+                      />
                     </Icon>
                   </a>
                 </City>

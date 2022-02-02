@@ -11,8 +11,8 @@ export default function LeftContainer() {
         <BoxTitle>NBA Home</BoxTitle>
       </BoxHead>
       <BoxText>
-        Are you looking for information of your favorite NBA team? Cool, here
-        you can look that and much more, statistics, ranking and records.
+        Are you looking for information of your favorite NBA team? Cool! here
+        you can look statistics, ranking, records and much more.
       </BoxText>
       <IconArea>
         <BoxIcon>

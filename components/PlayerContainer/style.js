@@ -64,6 +64,11 @@ export const Topic = styled.th`
   border-collapse: collapse;
   padding: 30px;
 
+   /* Desktop S */
+   @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    font-size: 1.5rem;
+  }
+
   /* Mobile */
   @media screen and (max-width: 767px) {
     padding: 15px;
@@ -76,6 +81,11 @@ export const Line = styled.td`
   border-collapse: collapse;
   padding: 30px;
   height: 40px;
+
+   /* Desktop S */
+   @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    font-size: 1.5rem;
+  }
 
   /* Mobile */
   @media screen and (max-width: 767px) {

@@ -10,9 +10,8 @@ export const Container = styled.div`
   justify-content: space-around;
   background-color: ${DesignSystem.color.neutrals["dark"]};
 
-
-   /* Tablet */
-   @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Tablet */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
     min-height: 60vh;
   }
 
@@ -28,8 +27,13 @@ export const Container = styled.div`
 
 export const BackTitle = styled.div`
   color: ${DesignSystem.color.neutrals["grey"]};
-  font-size: 12rem;
+  font-size: 11rem;
   font-weight: bold;
+
+  /* Desktop S */
+  @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    font-size: 9rem;
+  }
 
   /* Mobile */
   @media screen and (max-width: 767px) {
@@ -47,6 +51,12 @@ export const BoxText = styled.p`
   color: ${DesignSystem.color.neutrals["light"]};
   font-size: 1.2rem;
   width: 60%;
+
+  /* Desktop S */
+  @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    width: 80%;
+    font-size: 1.6rem;
+  }
 
   /* Tablet */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -69,6 +79,11 @@ export const IconArea = styled.div`
   justify-content: flex-start;
   gap: 15px;
 
+  /* Desktop S */
+  @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    width: 80%;
+  }
+
   /* Tablet */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     width: 70%;
@@ -87,19 +102,29 @@ export const BoxIcon = styled.i`
   padding: 5px 8px;
   font-size: 2rem;
 
-    /* Tablet */
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
-      padding: 2px 10px;
-      font-size: 5rem;
+  /* Desktop S */
+  @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    padding: 2px 10px;
+    font-size: 3rem;
   }
 
+  /* Tablet */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    padding: 2px 10px;
+    font-size: 5rem;
+  }
 `;
 
 export const BoxTitle = styled.h1`
   position: absolute;
   text-align: center;
   color: ${DesignSystem.color.neutrals["light"]};
-  font-size: 2rem;
+  font-size: 3rem;
+
+  /* Desktop S */
+  @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    font-size: 2.5rem;
+  }
 
   /* Tablet */
   @media screen and (min-width: 768px) and (max-width: 1023px) {

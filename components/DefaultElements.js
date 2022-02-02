@@ -21,6 +21,11 @@ export const SubTitle = styled.h3`
 font-size: 14px;
 color: ${DesignSystem.color.neutrals['light']};
 
+ /* Desktop S */
+ @media screen and (min-width: 1023px) and (max-width: 1300px) {
+   font-size: 1.2rem;
+  }
+
  /* Tablet */
  @media screen and (min-width: 768px) and (max-width:1023px) {
     font-size: 1.4rem;
@@ -45,6 +50,14 @@ transition: 0.3s;
     padding: 6px 20px;
     border: 1px solid ${DesignSystem.color.principal["secondary"]};
 }
+
+ /* Desktop S */
+ @media screen and (min-width: 1023px) and (max-width: 1300px) {
+  height: 50px;
+  width: 190px;
+  text-align: center;
+  font-size: 1.5rem;
+  }
 
  /* Tablet */
  @media screen and (min-width: 768px) and (max-width:1023px) {

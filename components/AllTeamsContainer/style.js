@@ -40,6 +40,11 @@ export const BoxFilter = styled.div`
   width: 25vw;
   height: 10vh;
 
+  /* Desktop S */
+  @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    width: 60vw;
+  }
+
   /* Tablet */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     width: 80vw;
@@ -101,12 +106,21 @@ export const BoxTeam = styled.div`
     max-height: 25vh;
   }
 
+  /* Desktop S */
+  @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    width: 18vw;
+    img {
+      width: 15vw;
+      max-height: 25vh;
+    }
+  }
+
   /* Tablet */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     width: 25vw;
     height: 20vh;
 
-    img{
+    img {
       width: 20vw;
       max-height: 17vh;
     }
@@ -133,6 +147,10 @@ export const Description = styled.div`
     justify-content: space-between;
   }
 
+  /* Desktop S */
+  @media screen and (min-width: 1023px) and (max-width: 1300px) {
+    width: 18vw;
+  }
   /* Tablet */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     width: 25vw;
@@ -161,11 +179,14 @@ export const City = styled.aside`
     cursor: pointer;
   }
 
+  /* Desktop S */
+  @media screen and (min-width: 1023px) and (max-width: 1300px) {
+  }
+
   /* Tablet */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     flex-direction: column;
     font-size: 1.2rem;
-
   }
 
   /* Mobile */
@@ -183,10 +204,10 @@ export const City = styled.aside`
 `;
 
 export const Icon = styled.i`
-font-size:1rem;
+  font-size: 1rem;
 
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Tablet */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
     font-size: 2rem;
   }
 `;
